@@ -1,5 +1,5 @@
 all:
-	g++ TeamspeakStatus.cpp -o TeamspeakStatus
+	g++ TeamspeakStatus.cpp -o TeamspeakStatus -lwiringPi
 
 install:
 	TeamspeakStatus tts
